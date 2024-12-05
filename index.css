@@ -147,13 +147,6 @@ footer {
     text-align: center;
 }
 
-/* Default hidden hamburger menu */
-.hamburger {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-}
-
 #nav-menu.active {
     display: flex;
     flex-direction: column;
