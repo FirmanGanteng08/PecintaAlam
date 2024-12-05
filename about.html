@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Bagian Header -->
+    <header>
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="logo1.png" alt="Logo Pecinta Alam - Peduli Lingkungan">
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="donasi.html">Donasi</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+            <!-- Tombol Hamburger -->
+            <div class="hamburger" id="hamburger">&#9776;</div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section Hero -->
+        <section class="hero">
+            <div class="overlay"></div>
+            <h1>“Pecinta Alam adalah pusat transfer informasi dan pengetahuan digital mengenai aliran limbah”</h1>
+        </section>
+
+        <!-- Section Content -->
+        <section class="vision-section">
+            <div class="video-container">
+                <!-- Video Section -->
+                <video autoplay muted loop>
+                    <source src="1127.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="content">
+                <h2>Our Vision</h2>
+                <p>
+                    Kami percaya pada permintaan besar untuk perubahan lingkungan di Asia Tenggara. 
+                    Kami menyadari bahwa generasi muda Asia yang sebagian besar aktif di media sosial mulai menyadari ancaman perubahan iklim 
+                    dan dampak negatif dari pencemaran lingkungan.
+                </p>
+                <p>
+                    Kami yakin bahwa pada tahun 2020-an kesadaran akan semakin meningkat seiring dengan berkembangnya ekonomi sirkular.
+                    Misi kami adalah menyediakan pengetahuan, informasi faktual, dan pemahaman bersama lintas sektor
+                    dan populasi di Asia Tenggara.
+                </p>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="title">
+              <h1>About Us</h1>
+              <p>Pecinta Alam adalah organisasi yang peduli terhadap lingkungan dan beraksi untuk menjaga kelestarian alam</p>
+            </div>
+            <div class="image-gallery">
+              <img src="gambar1.jpg" alt="Activity 1">
+              <img src="gambar2.jpg" alt="Activity 2">
+              <img src="gambar3.jpg" alt="Activity 3">
+              <img src="gambar4.jpg" alt="Activity 4">
+              <img src="gambar5.jpg" alt="Activity 5">
+            </div>
+            <div class="description">
+              <p>Danftz memiliki pengalaman dalam ekonomi sirkular plastik selama bertahun-tahun. Ia meneliti dan menyelidiki rantai pasokan plastik dan telah menerbitkan beberapa artikel, dokumenter, dan sebuah buku.</p>
+              <a href="https://www.instagram.com/danftz_08/profilecard/?igsh=dWIwa2ZldzVhdDBs"><button>Visit @Danftz</button></a>
+            </div>
+          </section>
+                         
+    </main> 
+
+    <!-- Bagian Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pecinta Alam. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Toggle hamburger menu
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.getElementById('nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
